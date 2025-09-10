@@ -32,7 +32,7 @@ def index():
 
     # Salvar o contador atualizado
     save_counter(count)
-    rets=f"<html><head><title>Visits</title></head><body style='background-color:#000000;color:#ffffff'>visits: {count} times<body></html>"
+    rets=f"<html><head><title>Visits</title></head><body style='background-color:#FFFF00;color:#000000'>visits: {count} times<body></html>"
     return rets
 
 if __name__ == '__main__':
